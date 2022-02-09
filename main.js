@@ -6,10 +6,13 @@
             this.team = team;
             this.realName = realName;
         }
+        Avenger.prototype.bio = function () {
+            return this.name + " (" + this.team + ")";
+        };
+        ;
         Avenger.avgAge = 35;
         return Avenger;
     }());
-    var antman = new Avenger('Antman', 'capitan');
-    console.log(antman);
+    var antman = new Avenger('Antman', 'capitan', 'Scott');
 })();
 //# sourceMappingURL=main.js.map
