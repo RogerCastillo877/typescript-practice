@@ -70,5 +70,5 @@
     "forceConsistentCasingInFileNames": true        /* Disallow inconsistently-cased references to the same file. */
   },
   // "exclude": [],
-  "include": [ "class" ]
+  "include": [ "interfaces" ]
 }
