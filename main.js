@@ -1,14 +1,12 @@
 "use strict";
-(function () {
-    var flash = {
-        name: 'Barry',
-        age: 24,
-        powers: [1, 2]
+var Validations;
+(function (Validations) {
+    Validations.validateText = function (text) {
+        return (text.length > 3) ? true : false;
     };
-    var superman = {
-        name: 'Clark',
-        age: 30,
-        powers: [1, 2]
+    Validations.ValidateDate = function (myDate) {
+        return (isNaN(myDate.valueOf())) ? false : true;
     };
-})();
+})(Validations || (Validations = {}));
+console.log(Validations.validateText('Rocas'));
 //# sourceMappingURL=main.js.map
