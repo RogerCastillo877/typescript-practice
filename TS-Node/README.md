@@ -26,3 +26,19 @@ Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicament
 
 
 # curso-typescript
+
+## Instalar Axios
+npm i axios
+
+## Fast Type
+
+quicktype.io[https://app.quicktype.io/]
+
+* Open Quicktype
+* Verify languaje TypeScript
+* Interfaces Only
+* Cpoy code
+
+Or extension Paste JSON as Code
+
+Crtl + shift + p => Paste JSON as Code
